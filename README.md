@@ -37,7 +37,7 @@ Users can compose and view blog posts. Posts are stored in memory (no database),
    ```bash
    node index.js
 4. Open your browser and navigate to http://localhost:3000
-
+```
 Folder Structure
 /solarsystem
 ├── views/
@@ -52,5 +52,6 @@ Folder Structure
 │       └── style.css
 ├── index.js
 └── README.md
+```
 # Notes
 - Posts are not saved to a database for now; they exist only during runtime. 
