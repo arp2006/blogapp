@@ -1,0 +1,12 @@
+<%- include('partials/header.ejs') %>
+  <div class="posting post-container">
+    <h1>Create Post</h1>
+    <form action="/compose" method="post">
+      <input name="title" placeholder="Title*" required class="post-title txtbox">
+      <br />
+      <textarea name="content" placeholder="Content*" required class="post-content txtbox"></textarea>
+      <br />
+      <button type="submit">Post</button>
+    </form>
+  </div>
+<%- include('partials/footer.ejs') %>
