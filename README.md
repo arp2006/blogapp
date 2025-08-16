@@ -29,7 +29,7 @@ Users can compose and view blog posts. Posts are stored in memory (no database),
 1. Clone the repository:
    ```bash
    git clone https://github.com/arp2006/blogapp.git
-   cd solarsystem
+   cd to the folder
 2. Install dependenciesbash
    ```bash
    npm i
